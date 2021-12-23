@@ -5,7 +5,7 @@ import os
 from models import db, Product
 
 RABBIT_MQ_SERVER = os.getenv('RABBIT_MQ_SERVER')
-RABBIT_MQ_USER = os.getenv('RABBIT_MQ_SERVER')
+RABBIT_MQ_USER = os.getenv('RABBIT_MQ_USER')
 RABBIT_MQ_PASS = os.getenv('RABBIT_MQ_PASS')
 RABBIT_MQ_PROTOCOL = os.getenv('RABBIT_MQ_PROTOCOL')
 
